@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-accessanalyzer`](https://www.npmjs.com/package/@aws-sdk/client-accessanalyzer/v/3.357.0).
+[`@aws-sdk/client-accessanalyzer`](https://www.npmjs.com/package/@aws-sdk/client-accessanalyzer/v/3.358.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-accessanalyzer@3.357.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-accessanalyzer@3.358.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-aOoX+I8tiARXT0A7PGn2tZlLRvXpWlGtWM+9QsCBfqttcRTYMzYwZJHMdjwLhO3i
+sha384-a8HwHU4msadTGqPL8wdq9aw5l4Pu2B87LAaL6ubx1EzhGB/hQXDqDPK8s/mONz8z
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-accessanalyzer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-accessanalyzer@3.357.0/index.min.mjs"
+            "@aws-sdk/client-accessanalyzer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-accessanalyzer@3.358.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-accessanalyzer@3.357.0/index.min.mjs": "sha384-aOoX+I8tiARXT0A7PGn2tZlLRvXpWlGtWM+9QsCBfqttcRTYMzYwZJHMdjwLhO3i"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-accessanalyzer@3.358.0/index.min.mjs": "sha384-a8HwHU4msadTGqPL8wdq9aw5l4Pu2B87LAaL6ubx1EzhGB/hQXDqDPK8s/mONz8z"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-accessanalyzer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-accessanalyzer@3.357.0/index.min.mjs"
+                        "@aws-sdk/client-accessanalyzer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-accessanalyzer@3.358.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-accessanalyzer@3.357.0/index.min.mjs": "sha384-aOoX+I8tiARXT0A7PGn2tZlLRvXpWlGtWM+9QsCBfqttcRTYMzYwZJHMdjwLhO3i"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-accessanalyzer@3.358.0/index.min.mjs": "sha384-a8HwHU4msadTGqPL8wdq9aw5l4Pu2B87LAaL6ubx1EzhGB/hQXDqDPK8s/mONz8z"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.357.0`)
+* Always pin to a specific version (`@3.358.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-accessanalyzer/blob/refs/tags/3.357.0/LICENSE
+https://github.com/cloud-sdk-builds/client-accessanalyzer/blob/refs/tags/3.358.0/LICENSE
 ```
 
 ---
